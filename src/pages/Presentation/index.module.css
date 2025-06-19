@@ -11,7 +11,7 @@
 
 .title {
     margin-top: 1rem;
-    font-size: 79px;
+    font-size: 5vw;
     font-family: Hiragino Kaku Gothic Std, serif;
     color: #FEA832;
     text-shadow: 3px 3px 0 #AF291A;
@@ -20,7 +20,7 @@
 .subtitle {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    font-size: 46px;
+    font-size: 3vw;
     font-family: Archer, serif;
     color: #FEA832;
     text-shadow: 3px 3px 0 #AF291A;
@@ -28,7 +28,7 @@
 
 .text {
     margin-top: 1.5rem;
-    font-size: 22px;
+    font-size: 1.6vw;
     font-family: Helvetica, serif;
     font-weight: bold;
     color: #000;
