@@ -14,7 +14,7 @@
 .backgroundImage {
     display: block;
     max-width: 100vw;
-    height: auto;
+    width: 100%;
 }
 
 .content {

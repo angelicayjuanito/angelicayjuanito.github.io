@@ -8,11 +8,11 @@ import Notes from "../pages/Notes";
 import {Recommendations} from "../pages/Recommendations";
 import {Present} from "../pages/Present";
 import {Confirmation} from "../pages/Confirmation";
-
+import styles from './index.module.css'
 
 export const FullScreenPage = () => {
     return (
-        <>
+        <div className={styles.container}>
             <Welcome/>
             <Presentation/>
             <MovieListing/>
@@ -22,6 +22,6 @@ export const FullScreenPage = () => {
             <Recommendations/>
             <Present/>
             <Confirmation/>
-        </>
+        </div>
     )
 }

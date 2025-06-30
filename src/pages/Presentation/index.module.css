@@ -44,7 +44,6 @@
     .container {
         display: flex;
         width: 100vw;
-        background-color: var(--background-welcome);
         justify-content: flex-start;
         align-items: center;
         flex-direction: column;

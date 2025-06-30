@@ -1,6 +1,70 @@
 .container {
     display: flex;
+    flex-direction: row;
+    padding: 48px;
 
-    width: 100vw;
-    background-color: var(--background-movie-listing);
+    background-color: #FFDDAD;
+    border: 1px solid #000;
+    margin: 48px 124px;
+    width: auto;
+    min-height: 588px;
+    font-family: "Futura Lt BT", sans-serif;
+    gap: 32px;
+}
+
+.textContainer {
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.title {
+    font-size: clamp(2vw, 7vw, 7rem);
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.hour {
+    font-size: clamp(1vw, 4vw, 4rem);
+    font-style: normal;
+    font-weight: 300;
+}
+
+.imageContainer {
+    width: 50%;
+    opacity: 59%;
+}
+
+.backgroundImage {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover
+}
+
+@media (orientation: portrait) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        margin: 16px;
+        min-height: auto;
+    }
+
+    .textContainer {
+        width: 100%;
+    }
+
+    .imageContainer {
+        width: 100%;
+    }
+
+    .title {
+        font-size: clamp(2vw, 8vw, 7rem);
+        margin-bottom: 8px;
+    }
+
+    .hour {
+        font-size: clamp(1vw, 5vw, 7rem);
+    }
 }
