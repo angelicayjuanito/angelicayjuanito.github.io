@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/angelicayjuanito/static/css/main.aaefa8cd.css",
-    "main.js": "/angelicayjuanito/static/js/main.24c0f6c1.js",
-    "static/js/453.759bf9eb.chunk.js": "/angelicayjuanito/static/js/453.759bf9eb.chunk.js",
-    "static/media/portrait.jpg": "/angelicayjuanito/static/media/portrait.0c2dc4f7f6d67bd4c52b.jpg",
-    "index.html": "/angelicayjuanito/index.html",
-    "main.aaefa8cd.css.map": "/angelicayjuanito/static/css/main.aaefa8cd.css.map",
-    "main.24c0f6c1.js.map": "/angelicayjuanito/static/js/main.24c0f6c1.js.map",
-    "453.759bf9eb.chunk.js.map": "/angelicayjuanito/static/js/453.759bf9eb.chunk.js.map"
+    "main.css": "/static/css/main.a2b7689d.css",
+    "main.js": "/static/js/main.8167cc62.js",
+    "static/js/453.83540f6d.chunk.js": "/static/js/453.83540f6d.chunk.js",
+    "static/media/wall.jpg": "/static/media/wall.875a0b774bea2816ff72.jpg",
+    "static/media/location.png": "/static/media/location.1e847e7ccf7f13c4a0ba.png",
+    "static/media/encinar.png": "/static/media/encinar.bf7864303d6952f97bdc.png",
+    "static/media/elefante.png": "/static/media/elefante.296955f4636dfe08b4e7.png",
+    "index.html": "/index.html",
+    "main.a2b7689d.css.map": "/static/css/main.a2b7689d.css.map",
+    "main.8167cc62.js.map": "/static/js/main.8167cc62.js.map",
+    "453.83540f6d.chunk.js.map": "/static/js/453.83540f6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aaefa8cd.css",
-    "static/js/main.24c0f6c1.js"
+    "static/css/main.a2b7689d.css",
+    "static/js/main.8167cc62.js"
   ]
 }
