@@ -16,8 +16,8 @@ export const FullScreenPage = () => {
             <Welcome/>
             <Presentation/>
             <MovieListing/>
-            <Allocations/>
             <Directions/>
+            <Allocations/>
             <Notes/>
             <Recommendations/>
             <Present/>
