@@ -1,9 +1,3 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
-
 .titleContainer {
     width: 100vw;
     text-align: center;
@@ -11,39 +5,14 @@
     align-items: center;
 }
 
-.content {
-    display: flex;
-    flex-direction: row;
-}
-
-.carContainer {
+.infoContainer {
     padding: 24px;
     width: 50%;
 }
 
-.busContainer {
-    padding: 24px;
-    width: 50%;
-}
-
-.title {
-    margin-top: calc(4 * var(--base));
-    font-size: clamp(1rem, 5vw, 5rem);;
-    font-family: Hiragino Kaku Gothic Std, serif;
-    color: #FEA832;
-    text-shadow: 0.5vw 0.5vw 0 #AF291A;
-}
-
-.subtitle {
-    text-align: center;
-    margin-top: calc(4 * var(--base));
-    font-size: clamp(0.4rem, 3vw, 3rem);;
-    font-family: Hiragino Kaku Gothic Std, serif;
-    color: #FEA832;
-    text-shadow: 0.25vw 0.25vw 0 #AF291A;
-}
 
 .imageContainer {
+    margin-top: 1.5rem;
     background-color: #FFDDAD;
 }
 .backgroundImage {
@@ -53,20 +22,17 @@
     opacity: 0.69;
 }
 
+.gap {
+    gap: 16px;
+}
+
+.title {
+    margin: 1.5rem 0;
+}
+
 @media (orientation: portrait) {
-    .content {
-        flex-direction: column;
-    }
-
-    .carContainer {
+    .infoContainer {
         width: 100%;
     }
 
-    .busContainer {
-        width: 100%;
-    }
-
-    .subtitle {
-        margin-top: calc(2 * var(--base));
-    }
 }

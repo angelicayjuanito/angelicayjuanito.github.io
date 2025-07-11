@@ -1,0 +1,20 @@
+.cardContainer {
+    width: 33%;
+    padding: 16px;
+    background-color: var(--opacity-mask);
+    border-radius: 6px;
+}
+
+.source {
+    text-align: end;
+    margin: 0
+}
+
+@media (orientation: portrait) {
+    .cardContainer {
+        width: 100%;
+        padding: 16px;
+        background-color: var(--opacity-mask);
+        border-radius: 6px;
+    }
+}
