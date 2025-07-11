@@ -12,6 +12,8 @@
     gap: 32px;
 }
 
+
+
 .textContainer {
     width: 50%;
     align-content: center;
@@ -23,6 +25,14 @@
     margin-bottom: 48px;
     font-style: normal;
     font-weight: 300;
+}
+
+.subtitle {
+    margin: 1rem 0;
+    font-size: clamp(0.75rem, 3vw, 3rem);
+    font-family: Archer, serif;
+    color: #FEA832;
+    text-shadow: 0.3vw 0.3vw 0 #AF291A;
 }
 
 .hour {

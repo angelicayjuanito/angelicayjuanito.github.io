@@ -1,9 +1,137 @@
 .container {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
+    padding: 48px;
+    text-align: justify;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+
+    background-color: #FFDDAD;
+    border: 1px solid #000;
+    margin: 48px 124px;
+    width: auto;
+    font-family: "Futura Lt BT", sans-serif;
+    gap: 8px;
+    text-align: center;
+}
+
+.titleContainer {
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+
+    background-color: #FFDDAD;
+    border: 1px solid #000;
+    margin: 48px 124px;
+    width: auto;
+    min-height: 588px;
+    font-family: "Futura Lt BT", sans-serif;
+    gap: 32px;
 }
 
 .title {
-    font-size: calc(10px + 2vmin);
+    margin-top: calc(4 * var(--base));
+    font-size: clamp(1rem, 5vw, 5rem);;
     font-family: Hiragino Kaku Gothic Std, serif;
-    color: #BA0D32;
+    color: #FEA832;
+    text-shadow: 0.5vw 0.5vw 0 #AF291A;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: calc(4 * var(--base));
+    font-size: clamp(0.4rem, 3vw, 3rem);;
+    font-family: Hiragino Kaku Gothic Std, serif;
+    color: #FEA832;
+    text-shadow: 0.25vw 0.25vw 0 #AF291A;
+}
+
+.text {
+    margin-top: 1.5rem;
+    font-size: 1.6vw;
+    font-family: Helvetica, serif;
+    font-weight: bold;
+    color: #000;
+    text-wrap: auto;
+    line-height: 2;
+}
+
+.textBig {
+    font-size: clamp(1.5vw, 5vw, 5rem);
+    font-family: Helvetica, serif;
+    font-weight: bold;
+    color: #000;
+    text-wrap: auto;
+    line-height: 2;
+}
+
+.textSmall {
+    font-weight: 100;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    gap: 48px
+
+}
+
+.reviewCard {
+    border: 1px solid #000;
+    width: auto;
+    min-height: auto;
+    font-family: "Futura Lt BT", sans-serif;
+    gap: 32px;
+}
+
+
+@media (orientation: portrait) {
+    .content {
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        margin: 16px;
+        min-height: auto;
+    }
+
+
+    .hotelContent {
+        flex-direction: column;
+    }
+
+    .subtitle {
+        margin-top: calc(2 * var(--base));
+    }
+
+    .text {
+        margin-top: 1.5rem;
+        font-size: 3vw;
+        font-family: Helvetica, serif;
+        font-weight: bold;
+        color: #000;
+        line-height: 2;
+        text-align: justify;
+
+    }
 }
