@@ -1,21 +1,8 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    padding: 48px;
-
-    background-color: #FFDDAD;
-    border: 1px solid #000;
-    margin: 48px 124px;
-    width: auto;
-    min-height: 588px;
-    font-family: "Futura Lt BT", sans-serif;
-    gap: 32px;
+    flex-direction: column;
 }
 
-
-
 .textContainer {
-    width: 50%;
     align-content: center;
     justify-content: center;
     text-align: center;
@@ -53,14 +40,6 @@
 }
 
 @media (orientation: portrait) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        padding: 24px;
-        margin: 16px;
-        min-height: auto;
-    }
-
     .textContainer {
         width: 100%;
     }

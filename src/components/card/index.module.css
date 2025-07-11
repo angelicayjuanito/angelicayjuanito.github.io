@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+
+    background-color: #FFDDAD;
+    border: 1px solid #000;
+    margin: 48px 124px;
+    width: auto;
+    font-family: "Futura Lt BT", sans-serif;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column ;
+}
+
+.row {
+    flex-direction: row;
+}
+
+
+@media (orientation: portrait) {
+    .container {
+        flex-direction: column;
+    }
+}

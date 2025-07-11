@@ -7,12 +7,11 @@
   --background-confirmation: #FFF;
   --background-welcome : #57BCAF;
   --background-allocations: rgba(182, 223, 220, 0.4);
+  --opacity-mask : #0000001A;
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-
-
 }
