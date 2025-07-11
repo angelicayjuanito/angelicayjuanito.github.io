@@ -9,32 +9,36 @@ export const Presentation = () => {
             <h1 className={generalStyles.title}>¡PRÓXIMAMENTE EN CINES!</h1>
             <h3 className={generalStyles.subtitle}>19 de Septiembre de 2026</h3>
             <div className={clsx(generalStyles.content)}>
-                <p className={clsx( styles.textCenter, generalStyles.text)}>Él nació en Sevilla. Feria, muchas tonterías y karategis<br/>
+                <p className={clsx(generalStyles.text, generalStyles.textCenter)}>Él nació en Sevilla. Feria, muchas
+                    tonterías
+                    y karategis.<br/><br/>
                     Ella vino desde Bogotá. Montaña, empanadas y una paciencia digna de
-                    estudio<br/>
+                    estudio.<br/><br/>
                     Dos ciudades, una diferencia horaria y muchas videollamadas
                     interrumpidas por
-                    el Wi-Fi<br/>
+                    el Wi-Fi.<br/><br/>
                     Diez años de conversaciones absurdas, decisiones importantes,
                     y
                     negociaciones
                     diplomáticas sobre dónde
                     pasar
-                    Navidad<br/>
+                    Navidad.<br/><br/>
                     Sobrevivieron a la distancia, a los aeropuertos, a los
                     trenes,
                     buses y a
                     explicar cien veces cómo se
-                    conocieron<br/>
-                    Y ahora, en Septiembre de 2026…<br/>
+                    conocieron.<br/><br/>
+                    Y ahora, en Septiembre de 2026…<br/><br/>
                     Se casan. Voluntariamente. Sin coacción. Lo
-                    juran.<br/>
-                    "Una historia de compromiso, logística
-                    internacional,
-                    y
-                    muchas
-                    ganas de que
-                    funcione"
+                    juran.<br/><br/>
+                    <p className={generalStyles.textItalic}>
+                        "Una historia de compromiso, logística
+                        internacional,
+                        y
+                        muchas
+                        ganas de que
+                        funcione"
+                    </p>
                 </p>
             </div>
         </div>

@@ -4,11 +4,11 @@ import styles from './index.module.css'
 import clsx from "clsx";
 const Review = ({message, source}) => {
     return (
-        <div className={styles.cardContainer}>
-            <p className={clsx(generalStyles.textItalic)}>
+        <div className={clsx(styles.cardContainer, styles.message)}>
+            <p className={clsx(generalStyles.text)}>
                 {message}
             </p>
-            <p className={clsx(styles.source, generalStyles.text)}>
+            <p className={clsx(styles.source, generalStyles.textItalic)}>
                 {source}
             </p>
         </div>

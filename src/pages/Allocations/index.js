@@ -10,13 +10,9 @@ export const Allocations = () => {
                 <h1 className={generalStyles.title}>Selección de butaca</h1>
             </div>
             <p className={generalStyles.text}>
-                En el corazón de una noche mágica, rodeados de risas, brindis y pasos de baile, una pareja celebra 10
-                años de amor eterno… y tú formas parte del elenco principal. Pero cuando la música se apaga y las luces
-                se atenúan, comienza una nueva historia: la de aquellos invitados que deciden extender la magia unas
-                horas más, despertando sin prisa, con una sonrisa y (quizá) con un croissant en la mano.
-                Una noche para recordar es una experiencia pensada para quienes vienen de lejos o simplemente quieren
-                que la celebración no termine al decir “buenas noches”. Hotel cuidadosamente seleccionado, confort
-                garantizado, y la promesa de despertar al día siguiente todavía soñando con la fiesta.
+                Una pareja celebra 10 años de amor eterno… y tú formas parte del reparto principal.
+                Una experiencia pensada para quienes vienen de lejos o para quienes
+                que la celebración no termine cuando acabe la fiesta.
             </p>
             <Card direction={"column"}>
                 <h4 className={styles.textSmall}>Hotel</h4>

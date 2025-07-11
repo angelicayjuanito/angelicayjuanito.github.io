@@ -15,7 +15,6 @@ export const FullScreenPage = () => {
         <div className={styles.container}>
             <Welcome/>
             <Presentation/>
-            <MovieListing/>
             <Directions/>
             <Allocations/>
             <Notes/>

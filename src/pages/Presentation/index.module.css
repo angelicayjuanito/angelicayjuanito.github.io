@@ -1,9 +1,0 @@
-.textCenter {
-    text-align: center !important;
-}
-
-@media( orientation: portrait) {
-    .textCenter {
-        text-align: justify !important;
-    }
-}
