@@ -12,8 +12,8 @@
 
 .backgroundImage {
     display: block;
-    max-width: 100vw;
-    width: 100%;
+    max-width: 100%;
+    width: 100vw;
 }
 
 .content {
@@ -29,19 +29,21 @@
 }
 
 .title {
+    opacity: 100% !important;
     margin-top: 1rem;
     font-size: clamp(5vw, 8vw, 8rem);
     font-family: Futura, serif;
-    font-weight: normal;
-    color: #F9E830;
+    font-weight: bold;
+    color: #E08FB9;
 }
 
 .subtitle {
+    opacity: 100% !important;
     margin-top: 2rem;
     font-size: clamp(2vw, 3.5vw, 4rem);
     font-family: Archer, serif;
-    font-weight: lighter;
-    color: #F9E830;
+    font-weight: bold;
+    color: #E08FB9;
 }
 
 

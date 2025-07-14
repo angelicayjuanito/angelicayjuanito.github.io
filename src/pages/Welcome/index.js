@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './index.module.css';
-import portrait from '../../assets/wall.jpg';
+import portrait from '../../assets/portrait.jpg';
 export const Welcome = () => {
     return (
         <div className={styles.container}>
