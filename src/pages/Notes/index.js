@@ -19,7 +19,7 @@ export default function Notes() {
                 Una comedia tierna y sincera sobre el valor de estar presente… sin vaciar la cartera.
             </p>
             <div className={generalStyles.content}>
-                <div className={clsx(styles.content)}>
+                <div>
                     <p className={generalStyles.subtitle}>Etiqueta para hombres</p>
                     <ul className={clsx(generalStyles.text)}>
                         <li>Traje con camisa y corbata (opcional)</li>
@@ -29,9 +29,9 @@ export default function Notes() {
                         <li>Blazer (opcional)</li>
                     </ul>
                 </div>
-                <div className={clsx(styles.content)}>
+                <div>
                     <p className={generalStyles.subtitle}>Etiqueta para mujeres</p>
-                    <ul className={clsx(generalStyles.text, generalStyles.textCenter)}>
+                    <ul className={clsx(generalStyles.text)}>
                         <li>Vestido de cóctel</li>
                         <li>Vestido sencillo</li>
                         <li>Conjunto elegante</li>
@@ -40,7 +40,7 @@ export default function Notes() {
                     </ul>
                 </div>
             </div>
-            <div className={clsx(generalStyles.content, generalStyles.gap)}>
+            <div className={clsx(generalStyles.content, generalStyles.gap, generalStyles.marginTop)}>
                 <Review
                     message={"“Tan elegante como honesta. Una celebración donde lo importante no está en la etiqueta, sino en el abrazo compartido.”"}
                     source={"La Crítica Invisible"}
