@@ -2,14 +2,15 @@ import React from 'react'
 import styles from './index.module.css'
 import generalStyles from '../index.module.css';
 import Card from "../../components/card";
+import clsx from "clsx";
 
 export const Allocations = () => {
     return (
         <div className={generalStyles.container}>
             <div className={styles.titleContainer}>
-                <h1 className={generalStyles.title}>Selección de butaca</h1>
+                <div className={clsx(generalStyles.title, generalStyles.marginTitle)}>Selección de butaca</div>
             </div>
-            <p className={generalStyles.text}>
+            <p className={clsx(generalStyles.text, generalStyles.marginTop)}>
                 Una pareja celebra 10 años de amor eterno… y tú formas parte del reparto principal.
                 Una experiencia pensada para quienes vienen de lejos o para quienes
                 que la celebración no termine cuando acabe la fiesta.

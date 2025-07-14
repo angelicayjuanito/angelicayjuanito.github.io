@@ -6,10 +6,10 @@ import clsx from "clsx";
 export const Presentation = () => {
     return (
         <div className={generalStyles.container}>
-            <h1 className={generalStyles.title}>¡PRÓXIMAMENTE EN CINES!</h1>
+            <div className={clsx(generalStyles.title, generalStyles.marginTitle)}>¡PRÓXIMAMENTE EN CINES!</div>
             <h3 className={generalStyles.subtitle}>19 de Septiembre de 2026</h3>
             <div className={clsx(generalStyles.content)}>
-                <p className={clsx(generalStyles.text, generalStyles.textCenter)}>Él nació en Sevilla. Feria, muchas
+                <p className={clsx(generalStyles.text, generalStyles.textCenter, generalStyles.marginTop)}>Él nació en Sevilla. Feria, muchas
                     tonterías
                     y karategis.<br/><br/>
                     Ella vino desde Bogotá. Montaña, empanadas y una paciencia digna de

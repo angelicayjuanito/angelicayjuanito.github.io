@@ -13,8 +13,15 @@
     flex-direction: row;
 }
 
+.marginTop {
+    margin-top: 1.5rem;
+}
+
+.marginTitle {
+    margin-top: 2rem;
+}
+
 .title {
-    margin-top: calc(4 * var(--base));
     font-size: clamp(1rem, 4.5vw, 5rem);
     font-family: "Futura XBlk BT", serif;
     color: #FEA832;
@@ -26,6 +33,10 @@
     font-size: clamp(0.75rem, 3vw, 3rem);
     font-family: Futura, serif;
     color: #AF291A;
+}
+
+.gap {
+    gap: 16px;
 }
 
 .text {

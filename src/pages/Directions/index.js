@@ -11,12 +11,14 @@ export const Directions = () => {
     return (
         <div className={generalStyles.container}>
             <div className={styles.titleContainer}>
-                <h1 className={generalStyles.title}>¿CÓMO LLEGAR?</h1>
+                <div className={clsx(generalStyles.title, generalStyles.marginTitle)}>
+                    ¿CÓMO LLEGAR?
+                </div>
             </div>
             <div>
-                <p className={clsx(generalStyles.text, generalStyles.textCenter)}>
+                <p className={clsx(generalStyles.text, generalStyles.textCenter, generalStyles.marginTop)}>
                     Dos caminos. Una sola boda.
-                <br/>
+                    <br/>
                     En esta comedia romántica con tintes de road trip, los invitados deben tomar una decisión:
                 </p>
                 <br/>
