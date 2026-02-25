@@ -18,7 +18,7 @@ export const Recommendations = () => {
                     </h1>
                     <ul className={clsx(generalStyles.text, styles.cardList)}>
                         <li className={styles.card}>
-                            <div className={styles.cardTitle}><strong>Bar Alegria (Buenas tostadas)</strong></div>
+                            <div className={styles.cardTitle}><strong>Bar Alegria (Tradicional)</strong></div>
                             <a href="https://maps.app.goo.gl/iaETzMbr2pUx6wkk8"
                                target="_blank" rel="noopener noreferrer"
                                className={styles.cardAddress}

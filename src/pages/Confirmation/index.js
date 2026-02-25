@@ -16,10 +16,6 @@ export const Confirmation = ({}) => {
                     <h3 className={styles.cardTitle}>
                         ¡Tu confirmación es importante para nosotros!
                     </h3>
-                    <p className={styles.cardDescription}>
-                        Para poder organizar mejor nuestra boda y asegurar que todo sea perfecto,
-                        por favor confirma tu asistencia completando nuestro formulario.
-                    </p>
                     <a
                         href="https://docs.google.com/forms/d/15QD1SEAjg8NkzCTIuTBPJ368Z0UU9XAgC7M51btNyqs/viewform"
                         className={styles.confirmButton}
@@ -29,7 +25,8 @@ export const Confirmation = ({}) => {
                         Confirmar Asistencia
                     </a>
                     <p className={styles.footnote}>
-                        El formulario se abrirá en una nueva ventana
+                        Rogamos la no asistencia de niños al evento. Si tienes alguna situación especial 
+                        ponte en contacto con nosotros
                     </p>
                 </div>
             </Card>

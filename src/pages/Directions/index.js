@@ -19,12 +19,11 @@ export const Directions = () => {
                 <p className={clsx(generalStyles.text, generalStyles.textCenter, generalStyles.marginTop)}>
                     Dos caminos. Una sola boda.
                     <br/>
-                    En esta comedia romántica con tintes de road trip, los invitados deben tomar una decisión:
+                    Los invitados deben tomar una decisión:
                 </p>
                 <br/>
                 <p className={clsx(generalStyles.textItalic, generalStyles.textCenter)}>
-                    ¿Serán protagonistas de su propio trayecto en coche, con libertad total y playlist
-                    personalizada?
+                    ¿Serán protagonistas de su propio trayecto en coche y libertad total?
                 </p>
                 <br/>
                 <p className={clsx(generalStyles.textItalic, generalStyles.textCenter)}>
@@ -35,10 +34,10 @@ export const Directions = () => {
             <div className={generalStyles.content}>
                 <div className={styles.infoContainer}>
                     <h1 className={generalStyles.subtitle}>
-                        Modo conductor
+                        En coche y libre
                     </h1>
                     <ul className={generalStyles.text}>
-                        <li>Libertad de horarios</li>
+                        <li>Libertad de horarios (pero allí a las 18.30)</li>
                         <li>Ideal si quieres quedarte por tu cuenta después</li>
                         <li>Parking disponible&nbsp;
                             <a href="https://maps.app.goo.gl/PuVSQKdM3FdDbFSe6"
@@ -51,7 +50,7 @@ export const Directions = () => {
                 </div>
                 <div className={styles.infoContainer}>
                     <h1 className={generalStyles.subtitle}>
-                        Modo colectivo
+                        Comitiva en autobús
                     </h1>
 
                     <ul className={generalStyles.text}>
@@ -60,11 +59,10 @@ export const Directions = () => {
                         <li> Salida desde <a href="https://maps.app.goo.gl/mStK4sEngCL8QRbG9" target="_blank"
                                              rel="noopener noreferrer">
                             Paseo de la Unión
-                        </a> a las 18.30
+                        </a> a las 17.30.
 
-                            Regreso al final de la fiesta (para los que bailan hasta el último acorde)
-
-                        </li>
+                            </li>
+                            <li>Regreso al final de la fiesta (para los que bailan hasta el último acorde)</li>
                     </ul>
                 </div>
             </div>

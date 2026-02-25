@@ -11,9 +11,8 @@ export const Allocations = () => {
                 <div className={clsx(generalStyles.title, generalStyles.marginTitle)}>Selección de butaca</div>
             </div>
             <p className={clsx(generalStyles.text, generalStyles.marginTop)}>
-                Una pareja celebra 10 años de amor eterno… y tú formas parte del reparto principal.
-                Una experiencia pensada para quienes vienen de lejos o para quienes
-                que la celebración no termine cuando acabe la fiesta.
+                Tú formas parte del reparto principal.
+                Una experiencia pensada para quienes vienen de lejos:
             </p>
             <Card direction={"column"}>
                 <h4 className={styles.textSmall}>Hotel</h4>

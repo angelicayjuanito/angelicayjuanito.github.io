@@ -23,27 +23,34 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    transform: translateY(-24px);
 }
 
 .title {
     opacity: 100% !important;
-    margin-top: 1rem;
+    margin-top: 0;
     font-size: clamp(5vw, 8vw, 8rem);
     font-family: Futura, serif;
     font-weight: bold;
     color: #E08FB9;
+    -webkit-text-stroke: 2px var(--deep-burgundy);
 }
 
 .subtitle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 100% !important;
-    margin-top: 2rem;
+    margin: 0;
     font-size: clamp(2vw, 3.5vw, 4rem);
     font-family: Archer, serif;
     font-weight: bold;
     color: #E08FB9;
+    text-align: center;
 }
 
 
