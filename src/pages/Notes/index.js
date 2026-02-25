@@ -18,7 +18,7 @@ export default function Notes() {
                 cariño y la sencillez pueden ser el verdadero lujo.
                 Una comedia tierna y sincera sobre el valor de estar presente… sin vaciar la cartera.
             </p>
-            <div className={generalStyles.content}>
+            <div className={clsx(generalStyles.content, generalStyles.gap)}>
                 <div className={styles.card}>
                     <div className={clsx(generalStyles.subtitle, styles.cardTitle)}>Etiqueta para hombres</div>
                     <ul className={styles.cardList}>

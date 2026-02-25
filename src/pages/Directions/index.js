@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./index.module.css";
-import location from "../../assets/location.png"
+import location from "../../assets/location.jpeg"
 import elefante from "../../assets/elefante.png"
 import Review from "../../components/review";
 import generalStyles from '../index.module.css';
@@ -41,17 +41,13 @@ export const Directions = () => {
                         <li>Libertad de horarios</li>
                         <li>Ideal si quieres quedarte por tu cuenta después</li>
                         <li>Parking disponible&nbsp;
-                            <a href="https://maps.app.goo.gl/24zoxd1L3mFK7TgG7"
+                            <a href="https://maps.app.goo.gl/PuVSQKdM3FdDbFSe6"
                                target="_blank" rel="noopener noreferrer"
                             >
                                 Encinar de escardiel
                             </a>
                         </li>
                     </ul>
-
-                    <div className={styles.imageContainer}>
-                        <img src={location} className={styles.backgroundImage}/>
-                    </div>
                 </div>
                 <div className={styles.infoContainer}>
                     <h1 className={generalStyles.subtitle}>
@@ -61,7 +57,7 @@ export const Directions = () => {
                     <ul className={generalStyles.text}>
                         <li> Sin GPS y sin perderte</li>
 
-                        <li> Salida desde <a href="https://maps.app.goo.gl/gkSuosqTXDgFVXK57" target="_blank"
+                        <li> Salida desde <a href="https://maps.app.goo.gl/mStK4sEngCL8QRbG9" target="_blank"
                                              rel="noopener noreferrer">
                             Paseo de la Unión
                         </a> a las 18.30
@@ -70,9 +66,6 @@ export const Directions = () => {
 
                         </li>
                     </ul>
-                    <div className={styles.imageContainer}>
-                        <img src={elefante} className={styles.backgroundImage}/>
-                    </div>
                 </div>
             </div>
 

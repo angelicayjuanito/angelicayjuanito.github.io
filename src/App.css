@@ -1,13 +1,27 @@
 :root {
   --base: 4px;
-  --background-movie-listing: #F3DEA5;
-  --background-directions: #F7D7D7;
-  --background-recommendations: #C2DFD2;
-  --background-present: #B1AADD;
-  --background-confirmation: #FFF;
-  --background-welcome : #57BCAF;
-  --background-allocations: rgba(182, 223, 220, 0.4);
-  --opacity-mask : #0000001A;
+
+  /* Grand Budapest Hotel Color Palette */
+  --dusty-rose: #F7CAC9;
+  --blush-pink: #F8BBD0;
+  --peach-cream: #FFCCBC;
+  --warm-cream: #FFF8E1;
+  --soft-lavender: #E1BEE7;
+  --muted-purple: #CE93D8;
+  --golden-accent: #FFC107;
+  --deep-burgundy: #8E2430;
+  --warm-beige: #F3E5AB;
+  --ivory: #FFFEF7;
+
+  /* Section Backgrounds - Grand Budapest Style */
+  --background-movie-listing: var(--warm-cream);
+  --background-directions: var(--dusty-rose);
+  --background-recommendations: var(--peach-cream);
+  --background-present: var(--soft-lavender);
+  --background-confirmation: var(--ivory);
+  --background-welcome: var(--blush-pink);
+  --background-allocations: var(--warm-beige);
+  --opacity-mask: rgba(142, 36, 48, 0.1);
 
   * {
     margin: 0;

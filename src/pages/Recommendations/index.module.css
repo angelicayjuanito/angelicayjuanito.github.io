@@ -13,7 +13,7 @@
 
 .imageContainer {
     margin-top: 1.5rem;
-    background-color: #FFDDAD;
+    background-color: var(--peach-cream);
 }
 .backgroundImage {
     width: 100%;
@@ -35,29 +35,31 @@
     padding: 20px;
     margin-bottom: 16px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid black;
+    border: 1px solid #000;
     transition: all 0.3s ease;
     list-style: none;
+    border-radius: 6px;
 }
 
 .card:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 16px rgba(142, 36, 48, 0.2);
     transform: translateY(-2px);
+    background-color: var(--dusty-rose);
 }
 
 .cardTitle {
     margin-bottom: 8px;
-    color: #333;
+    color: var(--deep-burgundy);
 }
 
 .cardAddress {
-    color: #666;
+    color: var(--muted-purple);
     text-decoration: none;
     font-size: 0.9em;
 }
 
 .cardAddress:hover {
-    color: #007bff;
+    color: var(--golden-accent);
     text-decoration: underline;
 }
 

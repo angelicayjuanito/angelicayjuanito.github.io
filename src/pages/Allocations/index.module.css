@@ -9,13 +9,22 @@
     font-size: clamp(1.5vw, 5vw, 5rem);
     font-family: Helvetica, serif;
     font-weight: bold;
-    color: #000;
+    color: var(--deep-burgundy);
     text-wrap: auto;
     line-height: 2;
 }
 
 .textSmall {
     font-weight: 100;
+    font-size: clamp(0.75rem, 2.5vw, 1.8rem);
+    color: var(--deep-burgundy);
+}
+
+.textLight {
+    font-weight: 300;
+    font-size: clamp(0.9rem, 3vw, 2.2rem);
+    color: var(--deep-burgundy);
+    margin: 0.5rem 0;
 }
 
 .reviews {
