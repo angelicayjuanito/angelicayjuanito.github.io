@@ -1,0 +1,78 @@
+.titleContainer {
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoContainer {
+    padding: 24px;
+    width: 50%;
+}
+
+
+.imageContainer {
+    margin-top: 1.5rem;
+    background-color: #FFDDAD;
+}
+.backgroundImage {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    opacity: 0.69;
+}
+
+.gap {
+    gap: 16px;
+}
+
+.marginBottom {
+    margin-bottom: 16px;
+}
+
+.card {
+    background-color: #FFDDAD;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    transition: all 0.3s ease;
+    list-style: none;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.cardTitle {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.cardAddress {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.cardAddress:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.cardList {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    margin: 1.5rem 0;
+}
+
+@media (orientation: portrait) {
+    .infoContainer {
+        width: 100%;
+    }
+
+}

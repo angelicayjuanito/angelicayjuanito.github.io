@@ -22,6 +22,13 @@ export const Allocations = () => {
                 <h5 className={styles.textSmall}>Calle Andalucía 2</h5>
                 <h5 className={styles.textSmall}> San Jose de la Rinconada, Sevilla</h5>
             </Card>
+             <Card direction={"column"}>
+                <h4 className={styles.textSmall}>Hotel</h4>
+                <h1 className={styles.textBig}>EL CRUCE</h1>
+                <h4 className={styles.textLight}>954790024</h4>
+                <h5 className={styles.textSmall}>Calle Ernesto Barrenas Borja, SN</h5>
+                <h5 className={styles.textSmall}> San Jose de la Rinconada, Sevilla</h5>
+            </Card>
         </div>
     )
 }

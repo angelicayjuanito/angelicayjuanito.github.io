@@ -13,6 +13,10 @@
     flex-direction: row;
 }
 
+.marginBottom {
+    margin-bottom: 1.5rem;
+}
+
 .marginTop {
     margin-top: 1.5rem;
 }
