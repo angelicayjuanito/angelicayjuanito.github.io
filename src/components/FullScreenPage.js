@@ -1,6 +1,7 @@
 import React from 'react'
 import {Welcome} from "../pages/Welcome";
 import {Presentation} from "../pages/Presentation";
+import {Program} from "../pages/Program";
 import {MovieListing} from "../pages/MovieListing";
 import {Allocations} from "../pages/Allocations";
 import {Directions} from "../pages/Directions";
@@ -14,6 +15,7 @@ export const FullScreenPage = () => {
         <div className={styles.container}>
             <Welcome/>
             <Presentation/>
+            <Program />
             <Directions/>
             <Allocations/>
             <Notes/>

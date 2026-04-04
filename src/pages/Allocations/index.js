@@ -20,6 +20,7 @@ export const Allocations = () => {
                 <h4 className={styles.textLight}>854 644 243 - 624 539 276</h4>
                 <h5 className={styles.textSmall}>Calle Andalucía 2</h5>
                 <h5 className={styles.textSmall}> San Jose de la Rinconada, Sevilla</h5>
+                <h5 className={styles.textSmall}> Nota: Aquí se celebra la preboda</h5>
             </Card>
              <Card direction={"column"}>
                 <h4 className={styles.textSmall}>Hotel</h4>
@@ -27,6 +28,7 @@ export const Allocations = () => {
                 <h4 className={styles.textLight}>954790024</h4>
                 <h5 className={styles.textSmall}>Calle Ernesto Barrenas Borja, SN</h5>
                 <h5 className={styles.textSmall}> San Jose de la Rinconada, Sevilla</h5>
+                <h5 className={styles.textSmall}> Nota: Más cerca de donde saldrá el bus</h5>
             </Card>
         </div>
     )

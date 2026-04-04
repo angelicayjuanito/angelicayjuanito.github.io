@@ -22,8 +22,8 @@ export const Recommendations = () => {
                             <a href="https://maps.app.goo.gl/iaETzMbr2pUx6wkk8"
                                target="_blank" rel="noopener noreferrer"
                                className={styles.cardAddress}
-                            >
-                         C. Juan de la Cueva, 41</a>
+                            >C. Madrid, 87
+                         </a>
                         </li>
                         <li className={styles.card}>
                             <div className={styles.cardTitle}><strong>Bar Macaco (Buenas tostadas)</strong></div>
@@ -34,12 +34,12 @@ export const Recommendations = () => {
                         C. Jorge Manrique, 19</a>
                         </li>
                         <li className={styles.card}>
-                            <div className={styles.cardTitle}><strong>Bar Funes (Churritos)</strong></div>
+                            <div className={styles.cardTitle}><strong>Bar Funes (Yurritos y Yocolate)</strong></div>
                             <a href="https://maps.app.goo.gl/VVsexaP6DLey3Suz5"
                                target="_blank" rel="noopener noreferrer"
                                className={styles.cardAddress}
                             >
-                        C. Madrid, 87</a>
+                                C. Juan de la Cueva, 41</a>
                         </li>
                     </ul>
                 </div>

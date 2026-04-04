@@ -1,0 +1,45 @@
+.card {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E7EAEB;
+    border: 2px solid #2D48A2;
+    color: #2D48A2;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.columnsContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    width: 50%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeader {
+    color: #2D48A2;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tableCell {
+    color: #2D48A2;
+    padding: 10px;
+    border-bottom: 1px solid #2D48A2;
+}
+
+.programImage {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+

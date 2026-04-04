@@ -58,7 +58,7 @@ export const Directions = () => {
 
                         <li> Salida desde <a href="https://maps.app.goo.gl/mStK4sEngCL8QRbG9" target="_blank"
                                              rel="noopener noreferrer">
-                            Paseo de la Unión
+                            Paseo de la Unión, a la altura del bar Sabores del Bulevar (detrás hotel EL Cruce)
                         </a> a las 17.30.
 
                             </li>
